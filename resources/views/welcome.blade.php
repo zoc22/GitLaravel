@@ -10,8 +10,13 @@
 <body>
     <div class="bg-gray-100 flex items-center justify-center min-h-screen">
         <h1 class="text-3xl text-green-100 font-bold underline">
-            Hello world!
+         <form method="POST" action="/submit">
+            @csrf
+            <input type="text" name="name" placeholder="Enter your name">
+            <input type="email" name="email" placeholder="Enter your email">
+            <input type="password" name="password" placeholder="Enter your password">
+            <button type="submit">Submit</button>
+         </form>
         </h1>
-    </div>
 </body>
 </html>
