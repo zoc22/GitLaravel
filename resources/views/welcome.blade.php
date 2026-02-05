@@ -18,11 +18,7 @@
             GitHub<span class="text-green-600">Laravel</span>
         </h1>
 
-        <!-- Sous-titre -->
-        <p class="text-gray-500 mb-6">
-            Démarrage du projet Laravel avec une base propre et moderne
-        </p>
-
+    
         <!-- Séparateur -->
         <div class="w-16 h-1 bg-green-500 mx-auto mb-6 rounded"></div>
 
